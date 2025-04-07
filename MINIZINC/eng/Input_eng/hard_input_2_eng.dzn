@@ -1,0 +1,13 @@
+% This input file rquires 12 minutes of computation to find the final solution that uses 5/5 of the input tiles
+
+n = 5;  
+
+tile_number = 5; 
+
+number_of_cells = [3,3,3,4,3];
+
+tile = [| (6, 0, 0), (6, 1, 0), (4, 2, 0), (0, 0, 0) |   % blue
+          (1, 0, 0), (2, 0, 1), (5, 1, 0), (0, 0, 0) |   % fuxia
+          (2, 0, 0), (2, 1, 0), (6, 1, 1), (0, 0, 0) |   % orange
+          (2, 0, 0), (6, 0, 1), (0, 1, 0), (4, 1, 1) |   % purple
+          (1, 0, 0), (2, 0, 1), (2, 0, 2), (0, 0, 0) |]; % green

@@ -1,0 +1,14 @@
+% This input file rquires 5 minutes of computation to find configuration that uses 4/5 tiles
+% Instead the file rquires more than 50 minutes of computation to find the final solution that uses 5/5 of the input tiles
+
+n = 6;  
+
+num_tessere = 5; 
+
+numero_di_celle = [3,3,3,4,3];
+
+tessere = [| (1, 0, 0), (2, 0, 1), (1, 0, 2), (0, 0, 0) | % verde
+             (1, 0, 0), (0, 0, 1), (3, 1, 0), (0, 0, 0) | % fuxia
+             (0, 0, 0), (1, 0, 1), (6, 1, 0), (0, 0, 0) | % fuxia
+             (1, 0, 0), (2, 0, 1), (1, 1, 0), (4, 1, 1) | % viola
+             (1, 0, 1), (2, 1, 0), (1, 1, 1), (0, 0, 0) |]; % azzurro

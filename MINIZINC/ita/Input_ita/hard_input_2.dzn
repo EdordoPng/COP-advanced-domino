@@ -1,0 +1,13 @@
+% This input file rquires 12 minutes of computation to find the final solution that uses 5/5 of the input tiles
+
+n = 5;  
+
+num_tessere = 5; 
+
+numero_di_celle = [3,3,3,4,3];
+
+tessere = [| (6, 0, 0), (6, 1, 0), (4, 2, 0), (0, 0, 0) | % blu
+             (1, 0, 0), (2, 0, 1), (5, 1, 0), (0, 0, 0) | % fuxia
+             (2, 0, 0), (2, 1, 0), (6, 1, 1), (0, 0, 0) | % arancione
+             (2, 0, 0), (6, 0, 1), (0, 1, 0), (4, 1, 1) | % viola
+             (1, 0, 0), (2, 0, 1), (2, 0, 2), (0, 0, 0) |]; % verde
