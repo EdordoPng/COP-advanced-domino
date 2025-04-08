@@ -1,8 +1,4 @@
 # advanced_domino
-This repository shows how to solve a Constraint Optimization Problem using Minizinc and ASP 
-
-# Advanced Domino Placement — Constraint Optimization Problem (COP)
-# advanced_domino
 
 This repository shows how to solve a **Constraint Optimization Problem** using **MiniZinc** and **ASP (Answer Set Programming)**.
 
